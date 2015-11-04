@@ -1,0 +1,75 @@
+ <!--
+  ####################################
+  ####CSS class naming conventions####
+  ####################################
+  dashed-abbreviation = web-dev, bus-dev, mus-ic
+  first-last-profile = jovian-chen-profile
+  dn = department abbreviation (wd, bd, ms)
+  dn-cur-prof = bd-cur-prof
+  flast = first initial + last name = jchen
+  first-last-description = jovian-chen-description
+  flast-des = jchen-des 
+-->
+
+ <!--Department Name -->
+<div class = "col-md-3 centered">
+  <!-- PROFILES -->
+  <!-- Default Profile -->
+  <ul class = "dashed-abbreviation list-group show-me" id = "first-last-profile">
+    <li id = "flast" class = "list-group-item-pic dn dn-cur-prof">
+      <img src = "assets/images/Espinoza_Pedro.jpg" class = "profile-pic" align ="middle" >
+    </li>
+  </ul>
+  <ul class = "dashed-abbreviation list-group show-me" id = "first-last-description">
+    <li id = "flast-des" class = "list-group-item-des bd bd-cur-prof">
+      <div class = "description-emp">
+        <h3 class = "emp-name"><b>First Name</b> <br> <b>Last Name</b></h3>
+        <h4 class = "emp-position"><i>Position</i></h4>
+        <div class = "emp-bio"><p class = "bio">Hi I'm [name], [year degree] major at UC Berkeley. I like [skills/hobbies] and I am willing to help others with their difficulties. Go SmileyGO!</p></div>
+      </div>
+    </li>
+  </ul>
+  <!-- Additional Profiles (Copy and Paste code below to add employee profile-->
+  <ul class = "dashed-abbreviation list-group show-me not-current-prof" id = "first-last-profile">
+    <li id = "flast" class = "list-group-item-pic dn ncp"> 
+      <img src = "assets/images/Espinoza_Pedro.jpg" class = "profile-pic" align ="middle" >
+    </li>
+  </ul>
+  <ul class = "dashed-abbreviation list-group show-me not-current-prof" id = "first-last-description">
+    <li id = "flast-des" class = "list-group-item-des dn ncp">
+      <div class = "description-emp">
+        <h3 class = "emp-name"><b>First Name</b> <br> <b>Last Name</b></h3>
+        <h4 class = "emp-position"><i>Position</i></h4>
+        <div class = "emp-bio"><p class = "bio">Hi I'm [name], [year degree] major at UC Berkeley. I like [skills/hobbies] and I am willing to help others with their difficulties. Go SmileyGO!</p></div>
+      </div>
+    </li>
+  </ul>
+</div> <!-- end profiles -->
+<!-- Employee List -->
+<div class = "col-md-3 centered" id = "scroll-me">
+  <!-- Department Name -->
+  <ul class = "dashed-abbreviation list-group department-name" id = "header">
+    <li id = "department-header" class = "list-group-item-head dn" style = "font-size: 100%; margin: 0px;">
+      <span id = "pr-symbol"class="glyphicon glyphicon-[department icon] branches-sym" style = "margin: 2px 0px 0px 0px;"aria-hidden="true"></span>
+      <h6 class = "head" style = "float: left; margin: 9px 5px 3px 10px;">DEPARTMENT NAME</h6>
+    </li>
+  </ul>
+  <!-- List of Employees -->
+  <ul class = "dashed-abbreviation list-group employee-list">
+    <li id = "return-branches-dn" class = "btn list-group-item-branches dn">
+      <span id = "pr-symbol"class="glyphicon glyphicon-th-large branches-sym" style = "margin: 0px 10px 0px 0px;"aria-hidden="true"></span>
+      <h5 style = "float: left; margin: 4px 0px 0px 40px;">return to list of sectors</h5>
+    </li>
+    <li id = "first-last" class = "btn list-group-item-op dn" style = "padding: 0px;">
+      <img src = "assets/images/Espinoza_Pedro.jpg" class = "list-profile-pic" style = "float: right;">
+      <h5 class = "position-list">First Last</h5>
+      <h4 class = "position-list-italics">Position</h4>
+    </li> 
+    <li id = "first-last" class = "btn list-group-item-op bd" style = "padding: 0px;">
+      <img src = "assets/images/Espinoza_Pedro.jpg" class = "list-profile-pic" style = "float: right;">
+      <h5 class = "position-list">First Last</h5>
+      <h4 class = "position-list-italics">Position</h4>
+    </li>
+  </ul>
+</div> <!-- end Employee List -->
+<!--end Department Name -->
